@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "secret_santa"
+version = "0.1.0"
+description = ""
+authors = ["decorb_n <decorb_n@etna-alternance.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pySMTP = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+secret_santa = "src.secret_santa:main"

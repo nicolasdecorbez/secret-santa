@@ -1,4 +1,4 @@
-# `secret-santa` : Manage your Secret Santa with a CLI :santa:
+# Manage your Secret Santa with a CLI :santa:
 
 This project was born back in 2021, when I was organizing a Secret Santa with by best freinds. I coded a small and trival script to make random pairs of peoples, and to send them a email automatically, to preserve the surprise.
 

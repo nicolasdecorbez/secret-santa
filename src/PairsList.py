@@ -79,7 +79,7 @@ class PairsList:
         """
         Remove a Pair() from the Person object.
         """
-        self.persons.remove(pair)
+        self.pairs.remove(pair)
         print("SUCCESS: Pair deleted.")
         return True
 
@@ -88,4 +88,4 @@ class PairsList:
         Print the pairs list.
         """
         for i in range(len(self.pairs)):
-            print(f'{i}: "{self.pairs[i].sender.email}", "{self.persons[i].receiver.email}"')
+            print(f'{i}: "{self.pairs[i].sender.email}" to "{self.pairs[i].receiver.email}"')

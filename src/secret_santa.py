@@ -1,6 +1,5 @@
 # import random
 # import json
-# import pySMTP
 
 from src.Person import Person
 from src.PersonList import PersonList

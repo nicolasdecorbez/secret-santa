@@ -78,14 +78,6 @@ python-versions = ">=3.6"
 diagrams = ["jinja2", "railroad-diagrams"]
 
 [[package]]
-name = "pysmtp"
-version = "1.1.0"
-description = "An easy-to-use python library to send emails within seconds"
-category = "main"
-optional = false
-python-versions = ">=3.6, <4"
-
-[[package]]
 name = "pytest"
 version = "5.4.3"
 description = "pytest: simple powerful testing with Python"
@@ -118,7 +110,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "2b2420d0a8971ae8ef20920b4d6d21b821efecedf976e79fb7cc631a5e164192"
+content-hash = "4d1de49710d78bd295469a572576efe3d5b96e6e8760458e870affe880e8d10e"
 
 [metadata.files]
 atomicwrites = [
@@ -152,9 +144,6 @@ py = [
 pyparsing = [
     {file = "pyparsing-3.0.6-py3-none-any.whl", hash = "sha256:04ff808a5b90911829c55c4e26f75fa5ca8a2f5f36aa3a51f68e27033341d3e4"},
     {file = "pyparsing-3.0.6.tar.gz", hash = "sha256:d9bdec0013ef1eb5a84ab39a3b3868911598afa494f5faa038647101504e2b81"},
-]
-pysmtp = [
-    {file = "pySMTP-1.1.0.tar.gz", hash = "sha256:3597da041f2dcb83236d017fcccffa7abe79f47dc134ea0ef3cc0b8c75c34428"},
 ]
 pytest = [
     {file = "pytest-5.4.3-py3-none-any.whl", hash = "sha256:5c0db86b698e8f170ba4582a492248919255fcd4c79b1ee64ace34301fb589a1"},

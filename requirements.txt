@@ -1,0 +1,4 @@
+pylint
+coverage
+pytest
+pytest-cov
